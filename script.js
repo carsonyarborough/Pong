@@ -1,4 +1,4 @@
-//update loop
+
 import Ball from './Ball.js'
 
 const ball = new Ball(document.getElementById("ball"))
@@ -7,7 +7,7 @@ let lastTime
 function update(time) {
 if (lastTime != null){
     const delta = time -lastTime
-    //update code
+//console.log(delta)
     ball.update(delta)
 }
    
